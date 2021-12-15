@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/BlogApp/app/src/main/res/drawable/background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/BlogApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/BlogApp/app/src/main/res/drawable/shape_button.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/BlogApp/app/src/main/res/layout/activity_create_post.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/BlogApp/app/src/main/res/layout/activity_login.xml" value="0.23822463768115942" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/BlogApp/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/BlogApp/app/src/main/res/layout/activity_splash.xml" value="0.264" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Android-Study-Jams-2021/app/src/main/res/drawable/shape_button.xml" value="0.1" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Android-Study-Jams-2021/app/src/main/res/layout/activity_login.xml" value="0.1" />
       </map>
     </option>
   </component>
