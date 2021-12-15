@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Blog App</string>
+    <string name="model_des_string">Naruto gives viewers and readers alike a huge cast of characters to look through and invest time into. This cast of characters is so vast that there is literally a character for just about anyone to find interest in, whether said character shows up early or later on in the series.</string>
+    <string name="model_title_string">Why Naruto is best</string>
 </resources>
