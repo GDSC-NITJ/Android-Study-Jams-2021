@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Prasant Poonia/Documents/GitHub/Android-Study-Jams-2021/app/src/main/res/layout/activity_login.xml" value="0.15579710144927536" />
-        <entry key="..\:/Users/Prasant Poonia/Documents/GitHub/Android-Study-Jams-2021/app/src/main/res/layout/activity_main.xml" value="0.176" />
-        <entry key="..\:/Users/Prasant Poonia/Documents/GitHub/Android-Study-Jams-2021/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/BlogApp/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/BlogApp/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Android-Study-Jams-2021/app/src/main/res/drawable/shape_button.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Android-Study-Jams-2021/app/src/main/res/layout/activity_login.xml" value="0.1" />
       </map>
     </option>
   </component>
