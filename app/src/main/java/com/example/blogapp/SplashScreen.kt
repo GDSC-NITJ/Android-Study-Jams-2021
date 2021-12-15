@@ -9,9 +9,12 @@ import android.content.Intent
 import android.os.Handler
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
+import android.widget.TextView
 import com.example.blogapp.MainActivity
 
 class SplashScreen : AppCompatActivity() {
+
+    private val splashScreen = 4000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,16 +26,19 @@ class SplashScreen : AppCompatActivity() {
         )
 
         val topAnim: Animation = AnimationUtils.loadAnimation(this, R.anim.top_animation)
-        val logo: ImageView = findViewById(R.id.appLogo)
+        val bottomAnim: Animation = AnimationUtils.loadAnimation(this, R.anim.bottom_animation)
+        val appLogo: ImageView = findViewById(R.id.appLogo)
+        val appName: TextView = findViewById(R.id.appName)
+        val slogan: TextView = findViewById(R.id.slogan)
 
-        logo.startAnimation(topAnim)
-        val intent = Intent(this@SplashScreen, LogIn::class.java)
-        val splashScreen = 3000
+        appLogo.animation = topAnim
+        appName.animation = bottomAnim
+        slogan.animation = bottomAnim
 
         Handler().postDelayed({
             startActivity(intent)
+            val intent = Intent(this@SplashScreen, LogIn::class.java)
             finish()
         }, splashScreen.toLong())
     }
-
 }
