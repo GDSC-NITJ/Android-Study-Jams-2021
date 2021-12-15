@@ -5,7 +5,7 @@ Google Developers Student Club - NIT Jalandhar is back with the month of learnin
 In this session DSC NITJ brings you Android Study Jams which is a beginner oriented android bootcamp in which the elements and basics of android development is taught from scratch!
 
 
-<p align="center" width="50%"><img src="https://user-images.githubusercontent.com/87534228/145713546-db48e2ba-f6f9-46e9-b498-31e13875623a.jpg"></p>
+<p align="center" width="500" height="500"><img src="https://user-images.githubusercontent.com/87534228/145713546-db48e2ba-f6f9-46e9-b498-31e13875623a.jpg"></p>
 <!-- <img src="https://user-images.githubusercontent.com/87534228/145713546-db48e2ba-f6f9-46e9-b498-31e13875623a.jpg" width="500" height="500" /> -->
 
 ## Date : 
