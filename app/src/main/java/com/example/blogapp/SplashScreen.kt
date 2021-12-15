@@ -26,7 +26,7 @@ class SplashScreen : AppCompatActivity() {
         val logo: ImageView = findViewById(R.id.appLogo)
 
         logo.startAnimation(topAnim)
-        val intent = Intent(this@SplashScreen, MainActivity::class.java)
+        val intent = Intent(this@SplashScreen, Login::class.java)
         val splashScreen = 3000
 
         Handler().postDelayed({
