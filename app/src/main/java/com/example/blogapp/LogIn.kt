@@ -29,7 +29,7 @@ class LogIn : AppCompatActivity() {
                 // Google Sign In was successful, authenticate with Firebase
                 val account = task.getResult(ApiException::class.java)!!
                 Log.d("Login Success", "firebaseAuthWithGoogle:" + account.id)
-                val intent=Intent(this,MainActivity::class.java)
+                val intent=Intent(this,PostsActivity::class.java)
                 startActivity(intent)
                 finish()
                 firebaseAuthWithGoogle(account.idToken!!)
@@ -46,7 +46,7 @@ class LogIn : AppCompatActivity() {
         val user=mauth.currentUser
         if (user != null) {
             Toast.makeText(this,"Already Login",Toast.LENGTH_SHORT).show()
-            val intent=Intent(this,MainActivity::class.java)
+            val intent=Intent(this,PostsActivity::class.java)
             startActivity(intent)
             finish()
         }

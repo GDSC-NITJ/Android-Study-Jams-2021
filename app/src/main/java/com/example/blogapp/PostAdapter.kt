@@ -8,11 +8,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class PostAdapter(private val posts : ArrayList<Post>, private val context : Context) : RecyclerView.Adapter<PostAdapter.PostViewHolder>()  {
-
-
     inner class PostViewHolder(view : View) : RecyclerView.ViewHolder(view){
         val title = view.findViewById<TextView>(R.id.titleTxt)
         val description = view.findViewById<TextView>(R.id.desTxt)
+        val author=view.findViewById<TextView>(R.id.author)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostViewHolder {
@@ -26,6 +25,7 @@ class PostAdapter(private val posts : ArrayList<Post>, private val context : Con
         val curr_post = posts[position]
         holder.title.text = curr_post.title
         holder.description.text = curr_post.title
+        holder.author.text=curr_post.author
     }
 
     override fun getItemCount(): Int {
