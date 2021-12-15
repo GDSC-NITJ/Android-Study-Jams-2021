@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         val button:Button=findViewById(R.id.button)
         button.setOnClickListener {
             mauth.signOut()
-            val intent=Intent(this,Login::class.java)
+            val intent=Intent(this,LogIn::class.java)
             startActivity(intent)
             finish()
         }

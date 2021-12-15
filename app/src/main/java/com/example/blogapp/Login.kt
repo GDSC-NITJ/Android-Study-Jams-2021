@@ -16,7 +16,7 @@ import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 
-class Login : AppCompatActivity() {
+class LogIn : AppCompatActivity() {
     private lateinit var mauth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
     companion object {
