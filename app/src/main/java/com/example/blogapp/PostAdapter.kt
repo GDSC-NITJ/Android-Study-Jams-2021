@@ -17,14 +17,13 @@ class PostAdapter(private val posts : ArrayList<Post>, private val context : Con
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.post_item , parent , false)   //inflation layout as a view
         val holder = PostViewHolder(view)                                         //passing the above view into view holder
-
         return holder                                                             //returning holder
     }
 
     override fun onBindViewHolder(holder: PostViewHolder, position: Int) {
         val curr_post = posts[position]
         holder.title.text = curr_post.title
-        holder.description.text = curr_post.title
+        holder.description.text = curr_post.description
         holder.author.text=curr_post.author
     }
 
