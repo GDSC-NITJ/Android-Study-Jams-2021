@@ -8,6 +8,18 @@
     android:background="@drawable/ic_log"
 
     tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/wendy_one"
+        android:text="Welcome"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <FrameLayout
         android:id="@+id/fl_header_image"
@@ -28,19 +40,24 @@
             android:src="@drawable/ic_bl" />
     </FrameLayout>
 
+
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+
         android:layout_marginTop="30dp"
-        android:fontFamily="@font/wendy_one"
-        android:text="Welcome"
-        android:textColor="@android:color/holo_orange_dark"
-        android:textSize="30sp"
+
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="Hey Sign In Here!!"
+        android:textColor="@android:color/holo_green_dark"
+
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toBottomOf="@id/fl_header_image" />
 
     <Button
         android:id="@+id/g_signin"
@@ -60,23 +77,6 @@ android:background="@drawable/shape_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-
-        android:layout_marginTop="30dp"
-
-        android:fontFamily="@font/rammetto_one"
-        android:gravity="center"
-        android:text="Hey Sign In Here!!"
-        android:textColor="@android:color/holo_green_dark"
-
-        android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/fl_header_image" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
