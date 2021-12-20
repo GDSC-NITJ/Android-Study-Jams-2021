@@ -10,6 +10,7 @@ In this session DSC NITJ brings you Android Study Jams which is a beginner orien
 
 ## Date : 
          18th, 19th and 26th December 2021 
-## Time :
+### RSVP for the event ASAP! 
+The recording of the sessions will be uploaded on the youtube channel of DSC NITJ
 
 
