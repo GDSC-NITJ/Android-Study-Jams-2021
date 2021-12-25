@@ -25,7 +25,7 @@ The recording of the sessions will be uploaded on the youtube channel of DSC NIT
 
 ### For the ppt click [here](https://docs.google.com/presentation/d/1ldkfZmrRVbSVJuyCbZcqQph6CXlmrtrC/edit#slide=id.p2)
 
-### [Join](https://discord.gg/DneQ9v6Bec) the official discord server of Google Developer Student Club - NIT Jalandhhar!
+ [Join](https://discord.gg/DneQ9v6Bec) the official discord server of Google Developer Student Club - NIT Jalandhhar!
 
 
 
