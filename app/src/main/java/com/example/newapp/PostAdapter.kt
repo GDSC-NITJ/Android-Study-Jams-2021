@@ -1,5 +1,6 @@
 package com.example.newapp
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,9 +8,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import java.util.ArrayList
 
-class PostAdapter(private val titleList:ArrayList<String>,
-    private val descList:ArrayList<String>,
-    private val authList:ArrayList<String>):RecyclerView.Adapter<PostAdapter.PostViewHolder>() {
+class PostAdapter(private val posts : ArrayList<Post>)
+    :RecyclerView.Adapter<PostAdapter.PostViewHolder>() {
 
     inner class PostViewHolder(view: View):RecyclerView.ViewHolder(view) {
         val title:TextView=view.findViewById(R.id.titleTxt)
@@ -23,12 +23,13 @@ class PostAdapter(private val titleList:ArrayList<String>,
     }
 
     override fun onBindViewHolder(holder: PostViewHolder, position: Int) {
-        holder.title.text=titleList[position]
-        holder.desc.text=descList[position]
-        holder.author.text=authList[position]
+        val curr_post = posts[position]
+        holder.title.text = curr_post.title
+        holder.desc.text = curr_post.description
+        holder.author.text=curr_post.author
     }
 
     override fun getItemCount(): Int {
-        return titleList.size
+        return posts.size
     }
 }
