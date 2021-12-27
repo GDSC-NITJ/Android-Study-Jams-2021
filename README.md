@@ -21,8 +21,7 @@ The recording of the sessions will be uploaded on the youtube channel of DSC NIT
 
 ### Session 1 : [YouTube](https://www.youtube.com/watch?v=i8vJbhumorg)
 ### Session 2 : [YouTube](https://www.youtube.com/watch?v=Vq9Zx5kiIns)
-### Session 3 : (To be updated)
-
+### Session 3 : [Youtube](https://youtu.be/IzPyt12NuC0)
 ### For the ppt click [part 1](https://docs.google.com/presentation/d/1ldkfZmrRVbSVJuyCbZcqQph6CXlmrtrC/edit#slide=id.p2) | [part 2](https://docs.google.com/presentation/d/1ZuMpkGsHZmj-uX9-2SGeJr4ktAuDLU2lPS7Ke1J1Qvg/edit?usp=drivesdk)
 
  [Join](https://discord.gg/DneQ9v6Bec) the official discord server of Google Developer Student Club - NIT Jalandhhar!
